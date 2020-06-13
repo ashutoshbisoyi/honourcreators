@@ -13,8 +13,15 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+  <!-- animate css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- favicon   -->
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <!-- css -->
   <link rel="stylesheet" href="style.css">
-  <title>HonourCreators</title>
+  <title>About-HonourCreators</title>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -39,6 +46,9 @@
         <li class="nav-item">
           <a class="nav-link mx-2" href="index.html#blog-section">Blogs</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link mx-2" href="#">Offers<span class="text-danger">*</span></a>
+        </li>
         <li class="nav-item active">
           <a class="nav-link mx-2" href="aboutus.html">About<span class="sr-only">(current)</span></a>
         </li>
@@ -49,8 +59,8 @@
   <!-- intro-section START -->
   <section class="container-fluid intro about-intro">
     <header>
-      <h1>About Us</h1>
-      <p>All you want to know about HonourCreators</p>
+      <h1 class="animate__animated animate__fadeInRight">About Us</h1>
+      <p class="animate__animated animate__fadeInRight">All you want to know about HonourCreators</p>
     </header>
   </section>
   <nav aria-label="breadcrumb">
@@ -65,7 +75,7 @@
     <h2>Our Story</h2>
     <p class="section-description">a brief history of honourcreators</p>
     <div class="row">
-      <blockquote class="col-md-7 blockquote">
+      <blockquote class="col-md-7 blockquote" data-aos="fade-left">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam facere dolorem quae, maiores velit inventore
           architecto molestias enim vero consequuntur, culpa aperiam saepe sed! Nemo sequi beatae ab tenetur
           labore?Lorem
@@ -81,7 +91,7 @@
           <cite>Team HonourCreators</cite>
         </footer>
       </blockquote>
-      <div class="col-md-5">
+      <div class="col-md-5" data-aos="fade-right">
         <img src="images/story.jpg" alt="image of our story">
       </div>
     </div>
@@ -90,17 +100,17 @@
   <!-- counter section START -->
   <section class="container data">
     <div class="row">
-      <div class="column col-md-4">
+      <div class="column col-md-4" data-aos="fade-up" data-aos-delay="0">
         <h4><span class="counter">2,523</span></h4>
-        <p>Customers</p>
+        <p>Satisfied Customers</p>
         <i class="fa fa-users"></i>
       </div>
-      <div class="column col-md-4">
+      <div class="column col-md-4" data-aos="fade-up" data-aos-delay="100">
         <h4><span class="counter">63,075</span></h4>
         <p>Total Web Pages</p>
         <i class="fa fa-desktop"></i>
       </div>
-      <div class="column col-md-4">
+      <div class="column col-md-4" data-aos="fade-up" data-aos-delay="200">
         <h4><span class="counter">12,218</span></h4>
         <p>Cups Of Coffee</p>
         <i class="fa fa-coffee"></i>
@@ -192,24 +202,24 @@
   <section class="container clients">
     <h2>Our Clients</h2>
     <p class="section-description">satisfied clients of HonourCreators</p>
-    <div class="row clients-row">
-      <div class="column col-lg-2 col-md-4 col-4">
-        <img src="images/TechCrunch.png" alt="">
+    <div class="row clients-row d-flex justify-content-around">
+      <div class="column col-lg-2 col-md-4 col-4" data-aos="zoom-in" data-aos-delay="0">
+        <a href=""><img src="images/TechCrunch.png" alt="Rajesh Vision"></a>
       </div>
-      <div class="column col-lg-2 col-md-4 col-4">
-        <img src="images/mashable.png" alt="">
+      <div class="column col-lg-2 col-md-4 col-4" data-aos="zoom-in" data-aos-delay="100">
+        <a href=""><img src="images/mashable.png" alt="I next technology"></a>
       </div>
-      <div class="column col-lg-2 col-md-4 col-4">
-        <img src="images/TechCrunch.png" alt="">
+      <div class="column col-lg-2 col-md-4 col-4" data-aos="zoom-in" data-aos-delay="200">
+        <a href=""><img src="images/TechCrunch.png" alt="Our voix"></a>
       </div>
-      <div class="column col-lg-2 col-md-4 col-4">
-        <img src="images/mashable.png" alt="">
+      <div class="column col-lg-2 col-md-4 col-4" data-aos="zoom-in" data-aos-delay="300">
+        <a href=""><img src="images/mashable.png" alt="Haneul Publication"></a>
       </div>
-      <div class="column col-lg-2 col-md-4 col-4">
-        <img src="images/TechCrunch.png" alt="">
+      <div class="column col-lg-2 col-md-4 col-4" data-aos="zoom-in" data-aos-delay="400">
+        <a href=""><img src="images/TechCrunch.png" alt="Voyagers"></a>
       </div>
-      <div class="column col-lg-2 col-md-4 col-4">
-        <img src="images/mashable.png" alt="">
+      <div class="column col-lg-2 col-md-4 col-4" data-aos="zoom-in" data-aos-delay="300">
+        <a href=""><img src="images/mashable.png" alt="Haneul Publication"></a>
       </div>
     </div>
   </section>
@@ -268,10 +278,7 @@
             <a href="index.html#blog-section">
               <li>Blogs</li>
             </a>
-            <a href="team.html">
-              <li>Team</li>
-            </a>
-            <a href="#">
+            <a href="aboutus.html">
               <li>About</li>
             </a>
           </ul>
@@ -330,6 +337,14 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
+  <!-- AOS   -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset: 200,
+      duration: 1000
+    });
+  </script>
   <!-- my js -->
   <script src="script.js"></script>
 </body>
