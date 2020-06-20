@@ -508,7 +508,30 @@
     <!-- swiper js -->
     <script src="js/swiper.min.js"></script>
     <!--To Initialize the the Swiper we have to write some javascript (code in js file) -->
-
+    <script>
+      //swiper js initiallization and attributes
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        autoplay: {
+          delay: 2000,
+        },
+        loop: true,
+        speed: 1000,
+        breakpoints: {
+          // when window width is >= 480px
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          // when window width is >= 640px
+          840: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        },
+      });
+    </script>
     <!-- my js -->
     <script src="js/script.js"></script>
   </body>
